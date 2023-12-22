@@ -1,0 +1,380 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container style */
+.App {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar style */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f4f4f4;
+}
+
+/* Header style */
+.app-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Login and Register button style */
+.button-style {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  background-color: #0056b3;
+}
+
+/* Content container style */
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Update the styles for your specific components and pages as needed */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add this to your App.css */
+.button-style {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-style:hover {
+  background-color: #0056b3;
+}
+
+
+/* Weather container */
+.weather-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Input and button */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather data */
+.weather-data {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Error message */
+.error {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+/* Favorite button */
+.favorite-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.favorite-button.favorited {
+  background-color: #dc3545;
+}
+
+.favorite-button:hover {
+  background-color: #1e7e34;
+}
+
+
+/* Add your custom CSS styles here */
+
+/* Style the header */
+.header {
+  text-align: center;
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+}
+
+/* Style the buttons container */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Style the login and register buttons */
+.button-style {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  background-color: #1976D2;
+}
+
+/* Style the logged-in section */
+.logged-in-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Add more styles as needed */
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Add some additional styles on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: rgba(158, 12, 236, 0.5);
+  box-shadow: 0 0 5px rgba(255, 2, 2, 0.5);
+}
+
+/* Update the CSS for text input in Weather component */
+input[type="text"] {
+  width: auto; /* Remove the width property to make it span according to content */
+  padding: 10px;
+  margin: 0 auto; /* Center the input horizontally */
+  display: block; /* Ensure it's a block-level element to center it */
+}
+
+
+/* Update the CSS for the Weather component */
+.weather-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-data {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.error {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.favorite-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.favorite-button.favorited {
+  background-color: #dc3545;
+}
+
+.favorite-button:hover {
+  background-color: #1e7e34;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Add some additional styles on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: rgba(158, 12, 236, 0.5);
+  box-shadow: 0 0 5px rgba(255, 2, 2, 0.5);
+}
+
+
